@@ -1,0 +1,32 @@
+/* Estilos para los botones de categorías */
+.categoria-button {
+    background-color: #007bff; /* Azul */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interior */
+    margin: 5px; /* Separación entre botones */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Aparece la mano al pasar por encima */
+    transition: all 0.3s ease; /* Transición suave */
+  }
+  
+  .categoria-button:hover {
+    background-color: #0056b3; /* Color más oscuro cuando pasa el ratón */
+  }
+  
+  .categoria-button:focus {
+    outline: none; /* Sin contorno al hacer foco */
+  }
+  
+  .categoria-button:active {
+    transform: scale(0.98); /* Efecto de presionar el botón */
+  }
+  
+  /* Opcionalmente, puedes agregar más estilos de estado como: */
+  .categoria-button.disabled {
+    background-color: #d6d6d6; /* Gris cuando está deshabilitado */
+    cursor: not-allowed;
+  }
+  
+  

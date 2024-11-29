@@ -1,0 +1,24 @@
+
+<!-- detalle-actores.component.html -->
+<div class="container">
+  <h3 class="my-4 text-center">Actores de la categoría {{ categoria }}</h3>
+  
+  <!-- Mensaje cuando no hay actores -->
+  <div *ngIf="actores.length === 0" class="alert alert-warning text-center">
+    No se encontraron actores para esta categoría.
+  </div>
+  
+  <!-- Tarjetas de actores -->
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let actor of actores">
+      <div class="card">
+        <h5 class="card-title">{{ actor.nombreReal }}</h5>
+        <p class="card-text">Personaje: {{ actor.personaje }}</p>
+        <p class="card-text">Película: {{ actor.peliculas }}</p>
+        <p class="card-text">Edad: {{ actor.edad }}</p>
+        <p class="card-text">Nacionalidad: {{ actor.nacionalidad }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+

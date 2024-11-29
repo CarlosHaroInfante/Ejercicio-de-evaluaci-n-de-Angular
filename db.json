@@ -1,0 +1,204 @@
+{
+    "actores": [
+      {
+        "id": 1,
+        "categoria": "Accion",
+        "peliculas": ["Misión Imposible", "Top Gun"],
+        "personaje": "Ethan Hunt",
+        "nombreReal": "Tom Cruise",
+        "edad": 61,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1962-07-03"
+      },
+      {
+        "id": 2,
+        "categoria": "Accion",
+        "peliculas": ["Terminator", "Predator"],
+        "personaje": "T-800",
+        "nombreReal": "Arnold Schwarzenegger",
+        "edad": 76,
+        "nacionalidad": "Austriaco",
+        "fechaNacimiento": "1947-07-30"
+      },
+      {
+        "id": 3,
+        "categoria": "Accion",
+        "peliculas": ["Matrix", "John Wick"],
+        "personaje": "Neo",
+        "nombreReal": "Keanu Reeves",
+        "edad": 59,
+        "nacionalidad": "Canadiense",
+        "fechaNacimiento": "1964-09-02"
+      },
+      {
+        "id": 4,
+        "categoria": "Accion",
+        "peliculas": ["Duro de Matar", "El Quinto Elemento"],
+        "personaje": "John McClane",
+        "nombreReal": "Bruce Willis",
+        "edad": 69,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1955-03-19"
+      },
+      {
+        "id": 5,
+        "categoria": "Accion",
+        "peliculas": ["Mad Max: Furia en el Camino", "Venom"],
+        "personaje": "Max Rockatansky",
+        "nombreReal": "Tom Hardy",
+        "edad": 46,
+        "nacionalidad": "Británico",
+        "fechaNacimiento": "1977-09-15"
+      },
+      {
+        "id": 6,
+        "categoria": "Thriller",
+        "peliculas": ["Seven", "El Club de la Pelea"],
+        "personaje": "Tyler Durden",
+        "nombreReal": "Brad Pitt",
+        "edad": 60,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1963-12-18"
+      },
+      {
+        "id": 7,
+        "categoria": "Thriller",
+        "peliculas": ["El Silencio de los Inocentes", "Hannibal"],
+        "personaje": "Hannibal Lecter",
+        "nombreReal": "Anthony Hopkins",
+        "edad": 86,
+        "nacionalidad": "Británico",
+        "fechaNacimiento": "1937-12-31"
+      },
+      {
+        "id": 8,
+        "categoria": "Thriller",
+        "peliculas": ["Zodiac", "Prisioneros"],
+        "personaje": "Detective Loki",
+        "nombreReal": "Jake Gyllenhaal",
+        "edad": 43,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1980-12-19"
+      },
+      {
+        "id": 9,
+        "categoria": "Thriller",
+        "peliculas": ["El Origen", "Batman: El Caballero de la Noche"],
+        "personaje": "Dom Cobb",
+        "nombreReal": "Leonardo DiCaprio",
+        "edad": 49,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1974-11-11"
+      },
+      {
+        "id": 10,
+        "categoria": "Thriller",
+        "peliculas": ["Gone Girl", "Perdida"],
+        "personaje": "Nick Dunne",
+        "nombreReal": "Ben Affleck",
+        "edad": 52,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1972-08-15"
+      },
+      {
+        "id": 11,
+        "categoria": "Terror",
+        "peliculas": ["El Conjuro", "Annabelle"],
+        "personaje": "Ed Warren",
+        "nombreReal": "Patrick Wilson",
+        "edad": 51,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1973-07-03"
+      },
+      {
+        "id": 12,
+        "categoria": "Terror",
+        "peliculas": ["It", "El Resplandor"],
+        "personaje": "Pennywise",
+        "nombreReal": "Bill Skarsgård",
+        "edad": 33,
+        "nacionalidad": "Sueco",
+        "fechaNacimiento": "1990-08-09"
+      },
+      {
+        "id": 13,
+        "categoria": "Terror",
+        "peliculas": ["Psicosis"],
+        "personaje": "Norman Bates",
+        "nombreReal": "Anthony Perkins",
+        "edad": 60,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1932-04-04"
+      },
+      {
+        "id": 14,
+        "categoria": "Terror",
+        "peliculas": ["Halloween"],
+        "personaje": "Michael Myers",
+        "nombreReal": "Nick Castle",
+        "edad": 76,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1947-09-21"
+      },
+      {
+        "id": 15,
+        "categoria": "Terror",
+        "peliculas": ["Scream"],
+        "personaje": "Ghostface",
+        "nombreReal": "David Arquette",
+        "edad": 53,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1971-09-08"
+      },
+      {
+        "id": 16,
+        "categoria": "Comedia",
+        "peliculas": ["Superbad", "Juerga hasta el fin"],
+        "personaje": "Seth",
+        "nombreReal": "Jonah Hill",
+        "edad": 40,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1983-12-20"
+      },
+      {
+        "id": 17,
+        "categoria": "Comedia",
+        "peliculas": ["Deadpool", "Free Guy"],
+        "personaje": "Deadpool",
+        "nombreReal": "Ryan Reynolds",
+        "edad": 47,
+        "nacionalidad": "Canadiense",
+        "fechaNacimiento": "1976-10-23"
+      },
+      {
+        "id": 18,
+        "categoria": "Comedia",
+        "peliculas": ["Ace Ventura", "La Máscara"],
+        "personaje": "Ace Ventura",
+        "nombreReal": "Jim Carrey",
+        "edad": 62,
+        "nacionalidad": "Canadiense",
+        "fechaNacimiento": "1962-01-17"
+      },
+      {
+        "id": 19,
+        "categoria": "Comedia",
+        "peliculas": ["El Dictador", "Borat"],
+        "personaje": "Aladeen",
+        "nombreReal": "Sacha Baron Cohen",
+        "edad": 52,
+        "nacionalidad": "Británico",
+        "fechaNacimiento": "1971-10-13"
+      },
+      {
+        "id": 20,
+        "categoria": "Comedia",
+        "peliculas": ["Cazafantasmas", "The Office"],
+        "personaje": "Peter Venkman",
+        "nombreReal": "Bill Murray",
+        "edad": 73,
+        "nacionalidad": "Estadounidense",
+        "fechaNacimiento": "1950-09-21"
+      }
+    ]
+  }

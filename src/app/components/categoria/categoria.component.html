@@ -1,0 +1,16 @@
+<!-- categoria.component.html -->
+<div class="container">
+  <h3 class="my-4 text-center">Selecciona una categoría</h3>
+  <div class="row justify-content-center">
+    <!-- Usamos un *ngFor para iterar las categorías y hacerlas botones -->
+    <div class="col-md-3 mb-3" *ngFor="let categoria of categorias">
+      <button 
+        class="btn btn-lg btn-outline-primary w-100" 
+        (click)="seleccionarCategoria(categoria)">
+        {{ categoria }}
+      </button>
+    </div>
+  </div>
+</div>
+
+
