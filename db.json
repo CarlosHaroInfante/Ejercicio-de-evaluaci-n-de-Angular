@@ -286,6 +286,16 @@
       "edad": 56,
       "nacionalidad": "Australiano",
       "fechaNacimiento": "1968-10-12"
+    },
+    {
+      "id": "8aaf",
+      "categoria": "Accion",
+      "peliculas": "Deadpool y Lobezno",
+      "personaje": "Deadpool",
+      "nombreReal": "Ryan Reynolds",
+      "edad": 48,
+      "nacionalidad": "Canadiense",
+      "fechaNacimiento": "1976-10-23"
     }
   ]
 }

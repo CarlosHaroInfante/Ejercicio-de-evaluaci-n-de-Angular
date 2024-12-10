@@ -17,14 +17,16 @@ import { FormsModule } from '@angular/forms';  // Importa FormsModule
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  categoriaSeleccionada: string = '';
+  categoriaSeleccionada: string = ''; // Define la variable para almacenar la categoría seleccionada
 
+  // Método para actualizar la categoría seleccionada
   seleccionarCategoria(categoria: string) {
     this.categoriaSeleccionada = categoria;
   }
 
-  mostrarFormulario = false;
+  mostrarFormulario = false; // Variable para controlar la visibilidad del formulario
 
+  // Método para alternar la visibilidad del formulario
   toggleFormulario() {
     this.mostrarFormulario = !this.mostrarFormulario;
   }

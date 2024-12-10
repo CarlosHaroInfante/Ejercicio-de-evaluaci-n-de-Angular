@@ -1,22 +1,21 @@
 <div class="container mt-5">
+  <!-- Título de la página centrado con margen inferior -->
   <h1 class="text-center mb-4">Selecciona una Categoría</h1>
 
-    <!-- Puedes agregar más botones de categoría aquí -->
-
-    <div>
-      <app-categoria (categoriaSeleccionada)="seleccionarCategoria($event)"></app-categoria>
-    
-      <div *ngIf="categoriaSeleccionada">
-        <!--<h3>Actores en {{ categoriaSeleccionada }}</h3>
-        <button (click)="toggleFormulario()">Añadir Actor</button>-->
-    
-      </div>
+  <div>
+    <!-- Se incluye el componente "app-categoria", que emite un evento con la categoría seleccionada -->
+    <!-- El evento "categoriaSeleccionada" se enlaza con la función "seleccionarCategoria($event)" -->
+    <app-categoria (categoriaSeleccionada)="seleccionarCategoria($event)"></app-categoria>
+  
+    <div *ngIf="categoriaSeleccionada">
+      <!-- Este div se muestra solo si se ha seleccionado una categoría. Aquí se pueden mostrar más detalles si se desea -->
     </div>
   </div>
+</div>
 
-  
+<!-- Componente "app-detalle-actores", que recibe la categoría seleccionada como una propiedad "categoria" -->
+<!-- Los actores se mostrarán según la categoría seleccionada -->
+<app-detalle-actores [categoria]="categoriaSeleccionada"></app-detalle-actores>
 
-  <!-- Componente donde se mostrarán los actores de la categoría seleccionada -->
-  <app-detalle-actores [categoria]="categoriaSeleccionada"></app-detalle-actores>
 
 

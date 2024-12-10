@@ -1,78 +1,64 @@
-<!--<div class="formulario-nuevo-actor">
-  <h3>Añadir Nuevo Actor</h3>
-  <form (ngSubmit)="agregarActor()">
-    <label>Categoría:</label>
-    <input type="text" [(ngModel)]="nuevoActor.categoria" name="categoria" required />
-    <br>
-
-    <label>Películas (separadas por coma):</label>
-    <input type="text" [(ngModel)]="nuevoActor.peliculas" name="peliculas" />
-    <br>
-
-    <label>Personaje:</label>
-    <input type="text" [(ngModel)]="nuevoActor.personaje" name="personaje" />
-    <br>
-
-    <label>Nombre Real:</label>
-    <input type="text" [(ngModel)]="nuevoActor.nombreReal" name="nombreReal" required />
-    <br>
-
-    <label>Edad:</label>
-    <input type="text" [(ngModel)]="nuevoActor.edad" name="edad" />
-    <br>
-
-    <label>Nacionalidad:</label>
-    <input type="text" [(ngModel)]="nuevoActor.nacionalidad" name="nacionalidad" />
-    <br>
-
-    <label>Fecha de Nacimiento:</label>
-    <input type="date" [(ngModel)]="nuevoActor.fechaNacimiento" name="fechaNacimiento" />
-    <br>
-
-    <button type="submit">Añadir Actor</button>
-  </form>
-</div> -->
 <div class="form-container">
+  <!-- Título del formulario -->
   <h2>Añadir Nuevo Actor</h2>
+  
+  <!-- Con este botón llamamos al formulario para añadir un nuevo actor/actriz -->
   <form (ngSubmit)="agregarActor()">
+    
+    <!-- Campo para ingresar la categoría del actor/actriz -->
     <div class="form-group">
       <label for="categoria">Categoría:</label>
+      <!-- El campo está enlazado con la propiedad "nuevoActor.categoria" mediante ngModel -->
       <input type="text" id="categoria" [(ngModel)]="nuevoActor.categoria" name="categoria" class="form-control" required />
     </div>
     
+    <!-- Campo para ingresar las películas en las que el actor ha participado, separadas por coma -->
     <div class="form-group">
       <label for="peliculas">Películas (separadas por coma):</label>
+      <!-- El campo está enlazado con la propiedad "nuevoActor.peliculas" mediante ngModel -->
       <input type="text" id="peliculas" [(ngModel)]="nuevoActor.peliculas" name="peliculas" class="form-control" required />
     </div>
 
+    <!-- Campo para ingresar el personaje que el actor interpreta -->
     <div class="form-group">
       <label for="personaje">Personaje:</label>
+      <!-- El campo está enlazado con la propiedad "nuevoActor.personaje" mediante ngModel -->
       <input type="text" id="personaje" [(ngModel)]="nuevoActor.personaje" name="personaje" class="form-control" required />
     </div>
 
+    <!-- Campo para ingresar el nombre real del actor -->
     <div class="form-group">
       <label for="nombreReal">Nombre Real:</label>
+      <!-- El campo está enlazado con la propiedad "nuevoActor.nombreReal" mediante ngModel -->
       <input type="text" id="nombreReal" [(ngModel)]="nuevoActor.nombreReal" name="nombreReal" class="form-control" required />
     </div>
 
+    <!-- Campo para ingresar la edad del actor -->
     <div class="form-group">
       <label for="edad">Edad:</label>
+      <!-- El campo está enlazado con la propiedad "nuevoActor.edad" mediante ngModel -->
       <input type="number" id="edad" [(ngModel)]="nuevoActor.edad" name="edad" class="form-control" required />
     </div>
 
+    <!-- Campo para ingresar la nacionalidad del actor -->
     <div class="form-group">
       <label for="nacionalidad">Nacionalidad:</label>
+      <!-- El campo está enlazado con la propiedad "nuevoActor.nacionalidad" mediante ngModel -->
       <input type="text" id="nacionalidad" [(ngModel)]="nuevoActor.nacionalidad" name="nacionalidad" class="form-control" required />
     </div>
 
+    <!-- Campo para ingresar la fecha de nacimiento del actor -->
     <div class="form-group">
       <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+      <!-- El campo está enlazado con la propiedad "nuevoActor.fechaNacimiento" mediante ngModel -->
       <input type="date" id="fechaNacimiento" [(ngModel)]="nuevoActor.fechaNacimiento" name="fechaNacimiento" class="form-control" required />
     </div>
 
+    <!-- Botón para enviar el formulario -->
     <button type="submit" class="btn-submit">Añadir Actor</button>
   </form>
 </div>
+
 
 
 

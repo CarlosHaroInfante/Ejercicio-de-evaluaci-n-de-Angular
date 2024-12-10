@@ -17,7 +17,7 @@ export interface Actor {
   providedIn: 'root'
 })
 export class ActorService {
-  private apiURL = 'http://localhost:3000/actores';
+  private apiURL = 'http://localhost:3000/actores'; //url de la api
 
   constructor(private http: HttpClient) { }
 
