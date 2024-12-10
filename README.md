@@ -1,27 +1,32 @@
-# ActoresPeliculas
+# Aplicación de Gestión de Actores
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.10.
+## Descripción
 
-## Development server
+Esta aplicación permite gestionar una lista de actores/actrices, añadiendo información relevante sobre ellos, como su nombre real, personaje, películas en las que han actuado, edad, nacionalidad y fecha de nacimiento. Los actores se pueden agregar mediante un formulario y visualizar la lista de actores en la misma página.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+La aplicación interactúa con un servidor de backend (simulado con un servidor JSON local) para almacenar los datos de los actores y los muestra de manera interactiva en la interfaz de usuario.
 
-## Code scaffolding
+## Características
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Añadir Actores**: A través de un formulario de entrada, puedes agregar nuevos actores con su nombre, películas, personaje, edad, nacionalidad y fecha de nacimiento.
+- **Visualizar Lista de Actores**: Los actores añadidos se muestran en una lista con la información proporcionada.
+- **Validación**: El formulario tiene validaciones básicas, como la obligatoriedad de campos como el nombre, edad y películas.
 
-## Build
+## Tecnologías Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Frontend**:
+  - **Angular**: Para el desarrollo de la interfaz de usuario y la gestión de estados.
+  - **HTML/CSS**: Para la estructura y el diseño del formulario y la lista de actores.
+  
+- **Backend**:
+  - **json-server**: Usado para simular un backend con una base de datos en formato JSON. Permite guardar y obtener datos de forma sencilla.
 
-## Running unit tests
+## Instalación
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Paso 1: Clonar el Repositorio
 
-## Running end-to-end tests
+Primero, clona el repositorio de GitHub:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+git clone https://github.com/tu_usuario/gestion-actores.git
+cd gestion-actores
