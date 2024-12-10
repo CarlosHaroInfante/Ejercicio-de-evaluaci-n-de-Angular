@@ -1,0 +1,78 @@
+<!--<div class="formulario-nuevo-actor">
+  <h3>Añadir Nuevo Actor</h3>
+  <form (ngSubmit)="agregarActor()">
+    <label>Categoría:</label>
+    <input type="text" [(ngModel)]="nuevoActor.categoria" name="categoria" required />
+    <br>
+
+    <label>Películas (separadas por coma):</label>
+    <input type="text" [(ngModel)]="nuevoActor.peliculas" name="peliculas" />
+    <br>
+
+    <label>Personaje:</label>
+    <input type="text" [(ngModel)]="nuevoActor.personaje" name="personaje" />
+    <br>
+
+    <label>Nombre Real:</label>
+    <input type="text" [(ngModel)]="nuevoActor.nombreReal" name="nombreReal" required />
+    <br>
+
+    <label>Edad:</label>
+    <input type="text" [(ngModel)]="nuevoActor.edad" name="edad" />
+    <br>
+
+    <label>Nacionalidad:</label>
+    <input type="text" [(ngModel)]="nuevoActor.nacionalidad" name="nacionalidad" />
+    <br>
+
+    <label>Fecha de Nacimiento:</label>
+    <input type="date" [(ngModel)]="nuevoActor.fechaNacimiento" name="fechaNacimiento" />
+    <br>
+
+    <button type="submit">Añadir Actor</button>
+  </form>
+</div> -->
+<div class="form-container">
+  <h2>Añadir Nuevo Actor</h2>
+  <form (ngSubmit)="agregarActor()">
+    <div class="form-group">
+      <label for="categoria">Categoría:</label>
+      <input type="text" id="categoria" [(ngModel)]="nuevoActor.categoria" name="categoria" class="form-control" required />
+    </div>
+    
+    <div class="form-group">
+      <label for="peliculas">Películas (separadas por coma):</label>
+      <input type="text" id="peliculas" [(ngModel)]="nuevoActor.peliculas" name="peliculas" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+      <label for="personaje">Personaje:</label>
+      <input type="text" id="personaje" [(ngModel)]="nuevoActor.personaje" name="personaje" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+      <label for="nombreReal">Nombre Real:</label>
+      <input type="text" id="nombreReal" [(ngModel)]="nuevoActor.nombreReal" name="nombreReal" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+      <label for="edad">Edad:</label>
+      <input type="number" id="edad" [(ngModel)]="nuevoActor.edad" name="edad" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+      <label for="nacionalidad">Nacionalidad:</label>
+      <input type="text" id="nacionalidad" [(ngModel)]="nuevoActor.nacionalidad" name="nacionalidad" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+      <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+      <input type="date" id="fechaNacimiento" [(ngModel)]="nuevoActor.fechaNacimiento" name="fechaNacimiento" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn-submit">Añadir Actor</button>
+  </form>
+</div>
+
+
+

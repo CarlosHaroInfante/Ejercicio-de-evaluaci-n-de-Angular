@@ -3,6 +3,11 @@
 <div class="container">
   <h3 class="my-4 text-center">Actores de la categoría {{ categoria }}</h3>
   
+   <!-- Botón para añadir nuevos actores -->
+   <div class="text-end mb-3">
+    <button class="btn btn-primary" (click)="abrirFormularioAgregarActor()">Añadir Actor/Actriz</button>
+  </div>
+  
   <!-- Mensaje cuando no hay actores -->
   <div *ngIf="actores.length === 0" class="alert alert-warning text-center">
     No se encontraron actores para esta categoría.

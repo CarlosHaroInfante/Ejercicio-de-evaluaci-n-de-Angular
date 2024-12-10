@@ -1,46 +1,22 @@
-<!-- <div class="container mt-5">
-  <app-categoria (categoriaSeleccionada)="seleccionarCategoria($event)"></app-categoria>
-  <app-detalle-actores [categoria]="categoriaSeleccionada"></app-detalle-actores>
-</div> -->
-
 <div class="container mt-5">
   <h1 class="text-center mb-4">Selecciona una Categoría</h1>
 
-  <!-- Contenedor para los botones -->
-  <div class="row text-center">
-    <div class="col-6 col-md-4 mb-3">
-      <button 
-        class="categoria-button btn w-100" 
-        (click)="seleccionarCategoria('Accion')">
-        Acción
-      </button>
-    </div>
-    <div class="col-6 col-md-4 mb-3">
-      <button 
-        class="categoria-button btn w-100" 
-        (click)="seleccionarCategoria('Terror')">
-        Terror
-      </button>
-    </div>
-    <div class="col-6 col-md-4 mb-3">
-      <button 
-        class="categoria-button btn w-100" 
-        (click)="seleccionarCategoria('Comedia')">
-        Comedia
-      </button>
-    </div>
-
-    <div class="col-6 col-md-4 mb-3">
-      <button 
-        class="categoria-button btn w-100" 
-        (click)="seleccionarCategoria('Thriller')">
-        Thriller
-      </button>
-    </div>
     <!-- Puedes agregar más botones de categoría aquí -->
+
+    <div>
+      <app-categoria (categoriaSeleccionada)="seleccionarCategoria($event)"></app-categoria>
+    
+      <div *ngIf="categoriaSeleccionada">
+        <!--<h3>Actores en {{ categoriaSeleccionada }}</h3>
+        <button (click)="toggleFormulario()">Añadir Actor</button>-->
+    
+      </div>
+    </div>
   </div>
+
+  
 
   <!-- Componente donde se mostrarán los actores de la categoría seleccionada -->
   <app-detalle-actores [categoria]="categoriaSeleccionada"></app-detalle-actores>
-</div>
+
 

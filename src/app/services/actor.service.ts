@@ -24,5 +24,9 @@ export class ActorService {
   getActoresPorCategoria(categoria: string): Observable<Actor[]> {
     return this.http.get<Actor[]>(`${this.apiURL}?categoria=${categoria}`);  // Filtra por categoría
   }
+
+  agregarActor(actor: Partial<Actor>): Observable<Actor> {
+    return this.http.post<Actor>(this.apiURL, actor);  // Envia un POST al backend
+  }
 }
 
